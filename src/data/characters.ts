@@ -10,24 +10,32 @@ import monkAvatar from '@/assets/avatars/monk.png';
 import warlockAvatar from '@/assets/avatars/warlock.png';
 import necromancerAvatar from '@/assets/avatars/necromancer.png';
 import alchemistAvatar from '@/assets/avatars/alchemist.png';
-import illusionistAvatar from '@/assets/avatars/illusionist.png';
-import artificerAvatar from '@/assets/avatars/artificer.png';
-import paladinAvatar from '@/assets/avatars/paladin.png';
-import sorcererAvatar from '@/assets/avatars/sorcerer.png';
-import wizardAvatar from '@/assets/avatars/wizard.png';
-import warlordAvatar from '@/assets/avatars/warlord.png';
-import guardianAvatar from '@/assets/avatars/guardian.png';
-import oracleAvatar from '@/assets/avatars/oracle.png';
-import nobleAvatar from '@/assets/avatars/noble.png';
-import hunterAvatar from '@/assets/avatars/hunter.png';
-import archmageAvatar from '@/assets/avatars/archmage.png';
-import fighterAvatar from '@/assets/avatars/fighter.png';
-import scoutAvatar from '@/assets/avatars/scout.png';
-import golemsmithAvatar from '@/assets/avatars/golemsmith.png';
-import merchantAvatar from '@/assets/avatars/merchant.png';
-import tacticianAvatar from '@/assets/avatars/tactician.png';
-import pyromancerAvatar from '@/assets/avatars/pyromancer.png';
-import inquisitorAvatar from '@/assets/avatars/inquisitor.png';
+import javierRuizMunizAvatar from '@/assets/avatars/javier-ruiz-muniz.png';
+import marioGonzalezJimenezAvatar from '@/assets/avatars/mario-gonzalez-jimenez.png';
+import eliasIbanezClimentAvatar from '@/assets/avatars/elias-ibanez-climent.png';
+import adrielAgustinSaaAvatar from '@/assets/avatars/adriel-agustin-saa.png';
+import ismaelRodriguezMorenoAvatar from '@/assets/avatars/ismael-rodriguez-moreno.png';
+import veronicaMerinoYunguerosAvatar from '@/assets/avatars/veronica-merino-yungueros.png';
+import andresReyesNavasAvatar from '@/assets/avatars/andres-reyes-navas.png';
+import ronalAlexisBaierCifuentesAvatar from '@/assets/avatars/ronal-alexis-baier-cifuentes.png';
+import stevenGarciaCerveraAvatar from '@/assets/avatars/steven-garcia-cervera.png';
+import harrisonLeeRivasChaconAvatar from '@/assets/avatars/harrison-lee-rivas-chacon.png';
+import mayteVazquezAndresAvatar from '@/assets/avatars/mayte-vazquez-andres.png';
+import julioGilHigesAvatar from '@/assets/avatars/julio-gil-higes.png';
+import manuelTourinoLucasAvatar from '@/assets/avatars/manuel-tourino-lucas.png';
+import mishaMaligaAvatar from '@/assets/avatars/misha-maliga.png';
+import antonioArjonaHernanAvatar from '@/assets/avatars/antonio-arjona-hernan.png';
+import carlosGamezFuentesAvatar from '@/assets/avatars/carlos-gamez-fuentes.png';
+import angelDeCastroEscaleraAvatar from '@/assets/avatars/angel-de-castro-escalera.png';
+import danielMaestreYepesAvatar from '@/assets/avatars/daniel-maestre-yepes.png';
+import orpazMenahemAvatar from '@/assets/avatars/orpaz-menahem.png';
+import alvaroMiguelObiesGarciaAvatar from '@/assets/avatars/alvaro-miguel-obies-garcia.png';
+import javierVentasGarzonAvatar from '@/assets/avatars/javier-ventas-garzon.png';
+import damianRossiAvatar from '@/assets/avatars/damian-rossi.png';
+import silviaPanaderoHernandezAvatar from '@/assets/avatars/silvia-panadero-hernandez.png';
+import alexBoschAvatar from '@/assets/avatars/alex-bosch.png';
+import aitorAgirretxeaGomezAvatar from '@/assets/avatars/aitor-agirretxea-gomez.png';
+import sergioNovilloFelixAvatar from '@/assets/avatars/sergio-novillo-felix.png';
 
 export interface Character {
   id: string;
@@ -374,7 +382,7 @@ export const characters: Character[] = [
     fantasyName: 'Javier el Ilusionista',
     role: 'Senior Frontend Developer',
     class: 'Illusionist',
-    avatar: illusionistAvatar,
+    avatar: javierRuizMunizAvatar,
     level: 13,
     hp: 65,
     maxHp: 75,
@@ -388,7 +396,7 @@ export const characters: Character[] = [
     fantasyName: 'Mario el Constructor',
     role: 'Senior Frontend Developer',
     class: 'Artificer',
-    avatar: artificerAvatar,
+    avatar: marioGonzalezJimenezAvatar,
     level: 12,
     hp: 70,
     maxHp: 80,
@@ -402,7 +410,7 @@ export const characters: Character[] = [
     fantasyName: 'Elías el Robusto',
     role: 'Senior Backend Developer',
     class: 'Paladin',
-    avatar: paladinAvatar,
+    avatar: eliasIbanezClimentAvatar,
     level: 13,
     hp: 100,
     maxHp: 120,
@@ -416,7 +424,7 @@ export const characters: Character[] = [
     fantasyName: 'Adriel el Conectado',
     role: 'Senior Backend Developer',
     class: 'Sorcerer',
-    avatar: sorcererAvatar,
+    avatar: adrielAgustinSaaAvatar,
     level: 12,
     hp: 60,
     maxHp: 70,
@@ -430,7 +438,7 @@ export const characters: Character[] = [
     fantasyName: 'Ismael el Estético',
     role: 'Senior Frontend Developer',
     class: 'Bard',
-    avatar: bardAvatar,
+    avatar: ismaelRodriguezMorenoAvatar,
     level: 11,
     hp: 68,
     maxHp: 78,
@@ -444,7 +452,7 @@ export const characters: Character[] = [
     fantasyName: 'Verónica la Lógica',
     role: 'Senior Backend Developer',
     class: 'Wizard',
-    avatar: wizardAvatar,
+    avatar: veronicaMerinoYunguerosAvatar,
     level: 13,
     hp: 55,
     maxHp: 65,
@@ -458,7 +466,7 @@ export const characters: Character[] = [
     fantasyName: 'Andrés el Capitán',
     role: 'Chapter Lead Frontend Multitenant',
     class: 'Warlord',
-    avatar: warlordAvatar,
+    avatar: andresReyesNavasAvatar,
     level: 15,
     hp: 95,
     maxHp: 110,
@@ -472,7 +480,7 @@ export const characters: Character[] = [
     fantasyName: 'Ronal el Guardián',
     role: 'Senior Backend Developer',
     class: 'Guardian',
-    avatar: guardianAvatar,
+    avatar: ronalAlexisBaierCifuentesAvatar,
     level: 12,
     hp: 110,
     maxHp: 130,
@@ -486,7 +494,7 @@ export const characters: Character[] = [
     fantasyName: 'Steven el Rápido',
     role: 'Senior Backend Developer',
     class: 'Rogue',
-    avatar: rogueAvatar,
+    avatar: stevenGarciaCerveraAvatar,
     level: 11,
     hp: 65,
     maxHp: 75,
@@ -500,7 +508,7 @@ export const characters: Character[] = [
     fantasyName: 'Harrison el Pintor',
     role: 'Senior Frontend Developer',
     class: 'Monk',
-    avatar: monkAvatar,
+    avatar: harrisonLeeRivasChaconAvatar,
     level: 12,
     hp: 72,
     maxHp: 82,
@@ -514,7 +522,7 @@ export const characters: Character[] = [
     fantasyName: 'Mayte la Vidente',
     role: 'UX',
     class: 'Oracle',
-    avatar: oracleAvatar,
+    avatar: mayteVazquezAndresAvatar,
     level: 14,
     hp: 60,
     maxHp: 70,
@@ -528,7 +536,7 @@ export const characters: Character[] = [
     fantasyName: 'Julio el Escriba',
     role: 'Product Analyst',
     class: 'Cleric',
-    avatar: clericAvatar,
+    avatar: julioGilHigesAvatar,
     level: 11,
     hp: 75,
     maxHp: 85,
@@ -542,7 +550,7 @@ export const characters: Character[] = [
     fantasyName: 'Manuel el Soberano',
     role: 'Product Owner',
     class: 'Noble',
-    avatar: nobleAvatar,
+    avatar: manuelTourinoLucasAvatar,
     level: 13,
     hp: 85,
     maxHp: 95,
@@ -556,7 +564,7 @@ export const characters: Character[] = [
     fantasyName: 'Misha la Elemental',
     role: 'Senior Frontend Developer',
     class: 'Druid',
-    avatar: druidAvatar,
+    avatar: mishaMaligaAvatar,
     level: 12,
     hp: 76,
     maxHp: 88,
@@ -570,7 +578,7 @@ export const characters: Character[] = [
     fantasyName: 'Antonio el Centinela',
     role: 'QA',
     class: 'Hunter',
-    avatar: hunterAvatar,
+    avatar: antonioArjonaHernanAvatar,
     level: 11,
     hp: 80,
     maxHp: 90,
@@ -584,7 +592,7 @@ export const characters: Character[] = [
     fantasyName: 'Carlos el Arquimago',
     role: 'Chapter Principal',
     class: 'Archmage',
-    avatar: archmageAvatar,
+    avatar: carlosGamezFuentesAvatar,
     level: 18,
     hp: 90,
     maxHp: 100,
@@ -598,7 +606,7 @@ export const characters: Character[] = [
     fantasyName: 'Ángel el Escadador',
     role: 'Senior Backend Developer',
     class: 'Ranger',
-    avatar: rangerAvatar,
+    avatar: angelDeCastroEscaleraAvatar,
     level: 12,
     hp: 78,
     maxHp: 88,
@@ -612,7 +620,7 @@ export const characters: Character[] = [
     fantasyName: 'Daniel el Maestro',
     role: 'Senior Frontend Developer',
     class: 'Fighter',
-    avatar: fighterAvatar,
+    avatar: danielMaestreYepesAvatar,
     level: 12,
     hp: 90,
     maxHp: 105,
@@ -626,7 +634,7 @@ export const characters: Character[] = [
     fantasyName: 'Orpaz la Exploradora',
     role: 'Senior Frontend Developer',
     class: 'Scout',
-    avatar: scoutAvatar,
+    avatar: orpazMenahemAvatar,
     level: 11,
     hp: 70,
     maxHp: 80,
@@ -640,7 +648,7 @@ export const characters: Character[] = [
     fantasyName: 'Álvaro el Núcleo',
     role: 'Senior Backend Developer',
     class: 'Golemsmith',
-    avatar: golemsmithAvatar,
+    avatar: alvaroMiguelObiesGarciaAvatar,
     level: 12,
     hp: 95,
     maxHp: 110,
@@ -654,7 +662,7 @@ export const characters: Character[] = [
     fantasyName: 'Javier el Mercader',
     role: 'Product Analyst',
     class: 'Merchant',
-    avatar: merchantAvatar,
+    avatar: javierVentasGarzonAvatar,
     level: 11,
     hp: 65,
     maxHp: 75,
@@ -668,7 +676,7 @@ export const characters: Character[] = [
     fantasyName: 'Damián el Colorista',
     role: 'Senior Frontend Developer',
     class: 'Illusionist',
-    avatar: illusionistAvatar,
+    avatar: damianRossiAvatar,
     level: 12,
     hp: 62,
     maxHp: 72,
@@ -682,7 +690,7 @@ export const characters: Character[] = [
     fantasyName: 'Silvia la Estratega',
     role: 'Product Analyst',
     class: 'Tactician',
-    avatar: tacticianAvatar,
+    avatar: silviaPanaderoHernandezAvatar,
     level: 15,
     hp: 80,
     maxHp: 90,
@@ -696,7 +704,7 @@ export const characters: Character[] = [
     fantasyName: 'Álex el Fulgor',
     role: 'Senior Frontend Developer',
     class: 'Pyromancer',
-    avatar: pyromancerAvatar,
+    avatar: alexBoschAvatar,
     level: 12,
     hp: 68,
     maxHp: 78,
@@ -710,7 +718,7 @@ export const characters: Character[] = [
     fantasyName: 'Aitor el Depurador',
     role: 'QA',
     class: 'Inquisitor',
-    avatar: inquisitorAvatar,
+    avatar: aitorAgirretxeaGomezAvatar,
     level: 11,
     hp: 85,
     maxHp: 95,
@@ -724,7 +732,7 @@ export const characters: Character[] = [
     fantasyName: 'Sergio el Pionero',
     role: 'Reference Lead Frontend eCare',
     class: 'Paladin',
-    avatar: 'https://ui-avatars.com/api/?name=Sergio+Novillo+Felix&background=random',
+    avatar: sergioNovilloFelixAvatar,
     level: 14,
     hp: 98,
     maxHp: 115,
