@@ -1,15 +1,26 @@
-import warriorAvatar from '@/assets/avatars/warrior.png';
-import rogueAvatar from '@/assets/avatars/rogue.png';
-import mageAvatar from '@/assets/avatars/mage.png';
-import rangerAvatar from '@/assets/avatars/ranger.png';
-import clericAvatar from '@/assets/avatars/cleric.png';
-import barbarianAvatar from '@/assets/avatars/barbarian.png';
-import druidAvatar from '@/assets/avatars/druid.png';
-import bardAvatar from '@/assets/avatars/bard.png';
-import monkAvatar from '@/assets/avatars/monk.png';
-import warlockAvatar from '@/assets/avatars/warlock.png';
-import necromancerAvatar from '@/assets/avatars/necromancer.png';
-import alchemistAvatar from '@/assets/avatars/alchemist.png';
+import warriorNatividad from '@/assets/avatars/warrior-natividad.png';
+import bardPabloAvatar from '@/assets/avatars/bard-pablo.png';
+import mageAlvaroAvatar from '@/assets/avatars/mage-alvaro.png';
+import bardGonzaloAvatar from '@/assets/avatars/bard-gonzalo.png';
+import mageAlejandroAvatar from '@/assets/avatars/mage-alejandro.png';
+import rangerRosarioAvatar from '@/assets/avatars/ranger-rosario.png';
+import warriorMiguelAvatar from '@/assets/avatars/warrior-miguel.png';
+import rogueBenatAvatar from '@/assets/avatars/rogue-benat.png';
+import clericSebastianAvatar from '@/assets/avatars/cleric-sebastian.png';
+import monkDavidAvatar from '@/assets/avatars/monk-david.png';
+import druidMartaAvatar from '@/assets/avatars/druid-marta.png';
+import warlockJoseAvatar from '@/assets/avatars/warlock-jose.png';
+import barbarianAbelAvatar from '@/assets/avatars/barbarian-abel.png';
+import necromancerDanielAvatar from '@/assets/avatars/necromancer-daniel.png';
+import clericJesusAvatar from '@/assets/avatars/cleric-jesus.png';
+import druidAlbertoAvatar from '@/assets/avatars/druid-alberto.png';
+import alchemistNereaAvatar from '@/assets/avatars/alchemist-nerea.png';
+import warriorMartaAvatar from '@/assets/avatars/warrior-marta.png';
+import barbarianRaulAvatar from '@/assets/avatars/barbarian-raul.png';
+import mageMarioAvatar from '@/assets/avatars/mage-mario.png';
+import warriorDanielAvatar from '@/assets/avatars/warrior-daniel.png';
+import rangerAnaAvatar from '@/assets/avatars/ranger-ana.png';
+import warlockValentinAvatar from '@/assets/avatars/warlock-valentin.png';
 import illusionistJavierAvatar from '@/assets/avatars/illusionist-javier.png';
 import artificerMarioAvatar from '@/assets/avatars/artificer-mario.png';
 import paladinEliasAvatar from '@/assets/avatars/paladin-elias.png';
@@ -59,7 +70,7 @@ export const characters: Character[] = [
     fantasyName: 'Nativa la Forjadora',
     role: 'Senior Android Developer',
     class: 'Warrior',
-    avatar: warriorAvatar,
+    avatar: warriorNatividad,
     level: 12,
     hp: 95,
     maxHp: 120,
@@ -73,7 +84,7 @@ export const characters: Character[] = [
     fantasyName: 'Pablo el Estratega',
     role: 'Product Owner',
     class: 'Bard',
-    avatar: bardAvatar,
+    avatar: bardPabloAvatar,
     level: 14,
     hp: 78,
     maxHp: 85,
@@ -87,7 +98,7 @@ export const characters: Character[] = [
     fantasyName: 'Álvaro el Analista',
     role: 'Product Analyst',
     class: 'Mage',
-    avatar: mageAvatar,
+    avatar: mageAlvaroAvatar,
     level: 11,
     hp: 65,
     maxHp: 70,
@@ -101,7 +112,7 @@ export const characters: Character[] = [
     fantasyName: 'Gonzalo el Festivo',
     role: 'Product Party Analyst',
     class: 'Bard',
-    avatar: bardAvatar,
+    avatar: bardGonzaloAvatar,
     level: 10,
     hp: 72,
     maxHp: 80,
@@ -115,7 +126,7 @@ export const characters: Character[] = [
     fantasyName: 'Alejandro el Arquitecto',
     role: 'Senior Backend Developer',
     class: 'Mage',
-    avatar: mageAvatar,
+    avatar: mageAlejandroAvatar,
     level: 13,
     hp: 68,
     maxHp: 75,
@@ -129,7 +140,7 @@ export const characters: Character[] = [
     fantasyName: 'Rosario la Vigilante',
     role: 'QA',
     class: 'Ranger',
-    avatar: rangerAvatar,
+    avatar: rangerRosarioAvatar,
     level: 11,
     hp: 82,
     maxHp: 90,
@@ -143,7 +154,7 @@ export const characters: Character[] = [
     fantasyName: 'Miguel el Comandante',
     role: 'Product Owner',
     class: 'Warrior',
-    avatar: warriorAvatar,
+    avatar: warriorMiguelAvatar,
     level: 15,
     hp: 110,
     maxHp: 130,
@@ -157,7 +168,7 @@ export const characters: Character[] = [
     fantasyName: 'Beñat el Swiftiano',
     role: 'Senior iOS Developer',
     class: 'Rogue',
-    avatar: rogueAvatar,
+    avatar: rogueBenatAvatar,
     level: 12,
     hp: 75,
     maxHp: 85,
@@ -171,7 +182,7 @@ export const characters: Character[] = [
     fantasyName: 'Sebastián el Sabio',
     role: 'Chapter Applications',
     class: 'Cleric',
-    avatar: clericAvatar,
+    avatar: clericSebastianAvatar,
     level: 16,
     hp: 88,
     maxHp: 100,
@@ -185,7 +196,7 @@ export const characters: Character[] = [
     fantasyName: 'David el Veloz',
     role: 'Senior iOS Developer',
     class: 'Monk',
-    avatar: monkAvatar,
+    avatar: monkDavidAvatar,
     level: 11,
     hp: 70,
     maxHp: 80,
@@ -199,7 +210,7 @@ export const characters: Character[] = [
     fantasyName: 'Marta la Protectora',
     role: 'QA',
     class: 'Druid',
-    avatar: druidAvatar,
+    avatar: druidMartaAvatar,
     level: 10,
     hp: 76,
     maxHp: 85,
@@ -213,7 +224,7 @@ export const characters: Character[] = [
     fantasyName: 'José el Visionario',
     role: 'Product Analyst',
     class: 'Warlock',
-    avatar: warlockAvatar,
+    avatar: warlockJoseAvatar,
     level: 12,
     hp: 62,
     maxHp: 70,
@@ -227,7 +238,7 @@ export const characters: Character[] = [
     fantasyName: 'Abel el Incansable',
     role: 'Senior Backend Developer',
     class: 'Barbarian',
-    avatar: barbarianAvatar,
+    avatar: barbarianAbelAvatar,
     level: 13,
     hp: 125,
     maxHp: 140,
@@ -241,7 +252,7 @@ export const characters: Character[] = [
     fantasyName: 'Daniel el Sombra',
     role: 'Senior Backend Developer',
     class: 'Necromancer',
-    avatar: necromancerAvatar,
+    avatar: necromancerDanielAvatar,
     level: 11,
     hp: 58,
     maxHp: 65,
@@ -255,7 +266,7 @@ export const characters: Character[] = [
     fantasyName: 'Jesús el Iluminado',
     role: 'Senior Backend Developer',
     class: 'Cleric',
-    avatar: clericAvatar,
+    avatar: clericJesusAvatar,
     level: 12,
     hp: 85,
     maxHp: 95,
@@ -269,7 +280,7 @@ export const characters: Character[] = [
     fantasyName: 'Alberto el Verde',
     role: 'Senior Android Developer',
     class: 'Druid',
-    avatar: druidAvatar,
+    avatar: druidAlbertoAvatar,
     level: 11,
     hp: 78,
     maxHp: 88,
@@ -283,7 +294,7 @@ export const characters: Character[] = [
     fantasyName: 'Nerea la Tejedora',
     role: 'Senior Backend Developer',
     class: 'Alchemist',
-    avatar: alchemistAvatar,
+    avatar: alchemistNereaAvatar,
     level: 12,
     hp: 64,
     maxHp: 72,
@@ -297,7 +308,7 @@ export const characters: Character[] = [
     fantasyName: 'Marta la Valiente',
     role: 'Senior Android Developer',
     class: 'Warrior',
-    avatar: warriorAvatar,
+    avatar: warriorMartaAvatar,
     level: 11,
     hp: 92,
     maxHp: 105,
@@ -311,7 +322,7 @@ export const characters: Character[] = [
     fantasyName: 'Raúl el León',
     role: 'Senior iOS Developer',
     class: 'Barbarian',
-    avatar: barbarianAvatar,
+    avatar: barbarianRaulAvatar,
     level: 12,
     hp: 118,
     maxHp: 135,
@@ -325,7 +336,7 @@ export const characters: Character[] = [
     fantasyName: 'Mario el Arquitecto Supremo',
     role: 'Chapter Lead Backend Multitenant',
     class: 'Mage',
-    avatar: mageAvatar,
+    avatar: mageMarioAvatar,
     level: 17,
     hp: 72,
     maxHp: 80,
@@ -339,7 +350,7 @@ export const characters: Character[] = [
     fantasyName: 'Daniel el Cruzado',
     role: 'Senior Backend Developer',
     class: 'Warrior',
-    avatar: warriorAvatar,
+    avatar: warriorDanielAvatar,
     level: 11,
     hp: 96,
     maxHp: 110,
@@ -353,7 +364,7 @@ export const characters: Character[] = [
     fantasyName: 'Ana la Encantadora',
     role: 'Product Owner',
     class: 'Ranger',
-    avatar: rangerAvatar,
+    avatar: rangerAnaAvatar,
     level: 13,
     hp: 80,
     maxHp: 88,
@@ -367,7 +378,7 @@ export const characters: Character[] = [
     fantasyName: 'Valentín el Arcano',
     role: 'Senior iOS Developer',
     class: 'Warlock',
-    avatar: warlockAvatar,
+    avatar: warlockValentinAvatar,
     level: 12,
     hp: 60,
     maxHp: 68,
