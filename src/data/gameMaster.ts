@@ -20,6 +20,8 @@ export const gameMaster: GameMaster = {
     'Reality Shaping - Creates and destroys worlds at will',
     'Time Mastery - Bends time to suit the narrative',
     'Soul Sight - Sees into the hearts of all characters',
-    'Story Binding - Her words become law'
+    'Story Binding - Her words become law',
+    'Animal Defender - Protector of all creatures great and small',
+    'Expert Cyclist - Navigates the realms on two wheels with unmatched speed'
   ]
 };
