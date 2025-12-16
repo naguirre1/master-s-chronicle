@@ -18,7 +18,7 @@ import alchemistNereaAvatar from '@/assets/avatars/alchemist-nerea.png';
 import warriorMartaAvatar from '@/assets/avatars/warrior-marta.png';
 import barbarianRaulAvatar from '@/assets/avatars/barbarian-raul.png';
 import mageMarioAvatar from '@/assets/avatars/mage-mario.png';
-import warriorDanielAvatar from '@/assets/avatars/warrior-daniel.png';
+import warriorDanielCruzAvatar from '@/assets/avatars/warrior-daniel-cruz.png';
 import rangerAnaAvatar from '@/assets/avatars/ranger-ana.png';
 import warlockValentinAvatar from '@/assets/avatars/warlock-valentin.png';
 import illusionistJavierAvatar from '@/assets/avatars/illusionist-javier.png';
@@ -350,7 +350,7 @@ export const characters: Character[] = [
     fantasyName: 'Daniel el Cruzado',
     role: 'Senior Backend Developer',
     class: 'Warrior',
-    avatar: warriorDanielAvatar,
+    avatar: warriorDanielCruzAvatar,
     level: 11,
     hp: 96,
     maxHp: 110,
