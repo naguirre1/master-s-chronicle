@@ -10,6 +10,24 @@ import monkAvatar from '@/assets/avatars/monk.png';
 import warlockAvatar from '@/assets/avatars/warlock.png';
 import necromancerAvatar from '@/assets/avatars/necromancer.png';
 import alchemistAvatar from '@/assets/avatars/alchemist.png';
+import illusionistAvatar from '@/assets/avatars/illusionist.png';
+import artificerAvatar from '@/assets/avatars/artificer.png';
+import paladinAvatar from '@/assets/avatars/paladin.png';
+import sorcererAvatar from '@/assets/avatars/sorcerer.png';
+import wizardAvatar from '@/assets/avatars/wizard.png';
+import warlordAvatar from '@/assets/avatars/warlord.png';
+import guardianAvatar from '@/assets/avatars/guardian.png';
+import oracleAvatar from '@/assets/avatars/oracle.png';
+import nobleAvatar from '@/assets/avatars/noble.png';
+import hunterAvatar from '@/assets/avatars/hunter.png';
+import archmageAvatar from '@/assets/avatars/archmage.png';
+import fighterAvatar from '@/assets/avatars/fighter.png';
+import scoutAvatar from '@/assets/avatars/scout.png';
+import golemsmithAvatar from '@/assets/avatars/golemsmith.png';
+import merchantAvatar from '@/assets/avatars/merchant.png';
+import tacticianAvatar from '@/assets/avatars/tactician.png';
+import pyromancerAvatar from '@/assets/avatars/pyromancer.png';
+import inquisitorAvatar from '@/assets/avatars/inquisitor.png';
 
 export interface Character {
   id: string;
@@ -356,7 +374,7 @@ export const characters: Character[] = [
     fantasyName: 'Javier el Ilusionista',
     role: 'Senior Frontend Developer',
     class: 'Illusionist',
-    avatar: 'https://ui-avatars.com/api/?name=Javier+Ruiz+Muniz&background=random',
+    avatar: illusionistAvatar,
     level: 13,
     hp: 65,
     maxHp: 75,
@@ -370,7 +388,7 @@ export const characters: Character[] = [
     fantasyName: 'Mario el Constructor',
     role: 'Senior Frontend Developer',
     class: 'Artificer',
-    avatar: 'https://ui-avatars.com/api/?name=Mario+Gonzalez+Jimenez&background=random',
+    avatar: artificerAvatar,
     level: 12,
     hp: 70,
     maxHp: 80,
@@ -384,7 +402,7 @@ export const characters: Character[] = [
     fantasyName: 'Elías el Robusto',
     role: 'Senior Backend Developer',
     class: 'Paladin',
-    avatar: 'https://ui-avatars.com/api/?name=Elias+Ibanez+Climent&background=random',
+    avatar: paladinAvatar,
     level: 13,
     hp: 100,
     maxHp: 120,
@@ -398,7 +416,7 @@ export const characters: Character[] = [
     fantasyName: 'Adriel el Conectado',
     role: 'Senior Backend Developer',
     class: 'Sorcerer',
-    avatar: 'https://ui-avatars.com/api/?name=Adriel+Agustin+Saa&background=random',
+    avatar: sorcererAvatar,
     level: 12,
     hp: 60,
     maxHp: 70,
@@ -412,7 +430,7 @@ export const characters: Character[] = [
     fantasyName: 'Ismael el Estético',
     role: 'Senior Frontend Developer',
     class: 'Bard',
-    avatar: 'https://ui-avatars.com/api/?name=Ismael+Rodriguez+Moreno&background=random',
+    avatar: bardAvatar,
     level: 11,
     hp: 68,
     maxHp: 78,
@@ -426,7 +444,7 @@ export const characters: Character[] = [
     fantasyName: 'Verónica la Lógica',
     role: 'Senior Backend Developer',
     class: 'Wizard',
-    avatar: 'https://ui-avatars.com/api/?name=Veronica+Merino+Yungueros&background=random',
+    avatar: wizardAvatar,
     level: 13,
     hp: 55,
     maxHp: 65,
@@ -440,7 +458,7 @@ export const characters: Character[] = [
     fantasyName: 'Andrés el Capitán',
     role: 'Chapter Lead Frontend Multitenant',
     class: 'Warlord',
-    avatar: 'https://ui-avatars.com/api/?name=Andres+Reyes+Navas&background=random',
+    avatar: warlordAvatar,
     level: 15,
     hp: 95,
     maxHp: 110,
@@ -454,7 +472,7 @@ export const characters: Character[] = [
     fantasyName: 'Ronal el Guardián',
     role: 'Senior Backend Developer',
     class: 'Guardian',
-    avatar: 'https://ui-avatars.com/api/?name=Ronal+Alexis+Baier&background=random',
+    avatar: guardianAvatar,
     level: 12,
     hp: 110,
     maxHp: 130,
@@ -468,7 +486,7 @@ export const characters: Character[] = [
     fantasyName: 'Steven el Rápido',
     role: 'Senior Backend Developer',
     class: 'Rogue',
-    avatar: 'https://ui-avatars.com/api/?name=Steven+Garcia+Cervera&background=random',
+    avatar: rogueAvatar,
     level: 11,
     hp: 65,
     maxHp: 75,
@@ -482,7 +500,7 @@ export const characters: Character[] = [
     fantasyName: 'Harrison el Pintor',
     role: 'Senior Frontend Developer',
     class: 'Monk',
-    avatar: 'https://ui-avatars.com/api/?name=Harrison+Lee+Rivas&background=random',
+    avatar: monkAvatar,
     level: 12,
     hp: 72,
     maxHp: 82,
@@ -496,7 +514,7 @@ export const characters: Character[] = [
     fantasyName: 'Mayte la Vidente',
     role: 'UX',
     class: 'Oracle',
-    avatar: 'https://ui-avatars.com/api/?name=Mayte+Vazquez+Andres&background=random',
+    avatar: oracleAvatar,
     level: 14,
     hp: 60,
     maxHp: 70,
@@ -510,7 +528,7 @@ export const characters: Character[] = [
     fantasyName: 'Julio el Escriba',
     role: 'Product Analyst',
     class: 'Cleric',
-    avatar: 'https://ui-avatars.com/api/?name=Julio+Gil+Higes&background=random',
+    avatar: clericAvatar,
     level: 11,
     hp: 75,
     maxHp: 85,
@@ -524,7 +542,7 @@ export const characters: Character[] = [
     fantasyName: 'Manuel el Soberano',
     role: 'Product Owner',
     class: 'Noble',
-    avatar: 'https://ui-avatars.com/api/?name=Manuel+Tourino+Lucas&background=random',
+    avatar: nobleAvatar,
     level: 13,
     hp: 85,
     maxHp: 95,
@@ -538,7 +556,7 @@ export const characters: Character[] = [
     fantasyName: 'Misha la Elemental',
     role: 'Senior Frontend Developer',
     class: 'Druid',
-    avatar: 'https://ui-avatars.com/api/?name=Misha+Maliga&background=random',
+    avatar: druidAvatar,
     level: 12,
     hp: 76,
     maxHp: 88,
@@ -552,7 +570,7 @@ export const characters: Character[] = [
     fantasyName: 'Antonio el Centinela',
     role: 'QA',
     class: 'Hunter',
-    avatar: 'https://ui-avatars.com/api/?name=Antonio+Arjona+Hernan&background=random',
+    avatar: hunterAvatar,
     level: 11,
     hp: 80,
     maxHp: 90,
@@ -566,7 +584,7 @@ export const characters: Character[] = [
     fantasyName: 'Carlos el Arquimago',
     role: 'Chapter Principal',
     class: 'Archmage',
-    avatar: 'https://ui-avatars.com/api/?name=Carlos+Gamez+Fuentes&background=random',
+    avatar: archmageAvatar,
     level: 18,
     hp: 90,
     maxHp: 100,
@@ -580,7 +598,7 @@ export const characters: Character[] = [
     fantasyName: 'Ángel el Escadador',
     role: 'Senior Backend Developer',
     class: 'Ranger',
-    avatar: 'https://ui-avatars.com/api/?name=Angel+de+Castro+Escalera&background=random',
+    avatar: rangerAvatar,
     level: 12,
     hp: 78,
     maxHp: 88,
@@ -594,7 +612,7 @@ export const characters: Character[] = [
     fantasyName: 'Daniel el Maestro',
     role: 'Senior Frontend Developer',
     class: 'Fighter',
-    avatar: 'https://ui-avatars.com/api/?name=Daniel+Maestre+Yepes&background=random',
+    avatar: fighterAvatar,
     level: 12,
     hp: 90,
     maxHp: 105,
@@ -608,7 +626,7 @@ export const characters: Character[] = [
     fantasyName: 'Orpaz la Exploradora',
     role: 'Senior Frontend Developer',
     class: 'Scout',
-    avatar: 'https://ui-avatars.com/api/?name=Orpaz+Menahem&background=random',
+    avatar: scoutAvatar,
     level: 11,
     hp: 70,
     maxHp: 80,
@@ -622,7 +640,7 @@ export const characters: Character[] = [
     fantasyName: 'Álvaro el Núcleo',
     role: 'Senior Backend Developer',
     class: 'Golemsmith',
-    avatar: 'https://ui-avatars.com/api/?name=Alvaro+Miguel+Obies&background=random',
+    avatar: golemsmithAvatar,
     level: 12,
     hp: 95,
     maxHp: 110,
@@ -636,7 +654,7 @@ export const characters: Character[] = [
     fantasyName: 'Javier el Mercader',
     role: 'Product Analyst',
     class: 'Merchant',
-    avatar: 'https://ui-avatars.com/api/?name=Javier+Ventas+Garzon&background=random',
+    avatar: merchantAvatar,
     level: 11,
     hp: 65,
     maxHp: 75,
@@ -650,7 +668,7 @@ export const characters: Character[] = [
     fantasyName: 'Damián el Colorista',
     role: 'Senior Frontend Developer',
     class: 'Illusionist',
-    avatar: 'https://ui-avatars.com/api/?name=Damian+Rossi&background=random',
+    avatar: illusionistAvatar,
     level: 12,
     hp: 62,
     maxHp: 72,
@@ -664,7 +682,7 @@ export const characters: Character[] = [
     fantasyName: 'Silvia la Estratega',
     role: 'Product Analyst',
     class: 'Tactician',
-    avatar: 'https://ui-avatars.com/api/?name=Silvia+Panadero+Hernandez&background=random',
+    avatar: tacticianAvatar,
     level: 15,
     hp: 80,
     maxHp: 90,
@@ -678,7 +696,7 @@ export const characters: Character[] = [
     fantasyName: 'Álex el Fulgor',
     role: 'Senior Frontend Developer',
     class: 'Pyromancer',
-    avatar: 'https://ui-avatars.com/api/?name=Alex+Bosch&background=random',
+    avatar: pyromancerAvatar,
     level: 12,
     hp: 68,
     maxHp: 78,
@@ -692,7 +710,7 @@ export const characters: Character[] = [
     fantasyName: 'Aitor el Depurador',
     role: 'QA',
     class: 'Inquisitor',
-    avatar: 'https://ui-avatars.com/api/?name=Aitor+Agirretxea+Gomez&background=random',
+    avatar: inquisitorAvatar,
     level: 11,
     hp: 85,
     maxHp: 95,
