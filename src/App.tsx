@@ -16,7 +16,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/master-s-chronicle">
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/plot" element={<PlotPage />} />
