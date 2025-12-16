@@ -18,7 +18,7 @@ import alchemistNereaAvatar from '@/assets/avatars/alchemist-nerea.png';
 import warriorMartaAvatar from '@/assets/avatars/warrior-marta.png';
 import barbarianRaulAvatar from '@/assets/avatars/barbarian-raul.png';
 import mageMarioAvatar from '@/assets/avatars/mage-mario.png';
-import warriorDanielCruzAvatar from '@/assets/avatars/warrior-daniel-cruz.png';
+import warriorDanielCruzAvatar from '@/assets/avatars/warrior-danielcruz.png';
 import rangerAnaAvatar from '@/assets/avatars/ranger-ana.png';
 import warlockValentinAvatar from '@/assets/avatars/warlock-valentin.png';
 import illusionistJavierAvatar from '@/assets/avatars/illusionist-javier.png';
