@@ -420,7 +420,7 @@ export const characters: Character[] = [
   },
   {
     id: '27',
-    realName: 'Adriel Agustín Saa',
+    realName: 'Adriel Agustin Saa',
     fantasyName: 'Adriel el Conectado',
     role: 'Senior Backend Developer',
     class: 'Sorcerer',
@@ -588,7 +588,7 @@ export const characters: Character[] = [
   },
   {
     id: '39',
-    realName: 'Carlos Gamez Fuentes',
+    realName: 'Carlos Gámez Fuentes',
     fantasyName: 'Carlos el Arquimago',
     role: 'Chapter Principal',
     class: 'Archmage',
@@ -602,7 +602,7 @@ export const characters: Character[] = [
   },
   {
     id: '40',
-    realName: 'Ángel de Castro Escalera',
+    realName: 'Angel de Castro Escalera',
     fantasyName: 'Ángel el Escadador',
     role: 'Senior Backend Developer',
     class: 'Ranger',
@@ -658,7 +658,7 @@ export const characters: Character[] = [
   },
   {
     id: '44',
-    realName: 'Javier Ventas Garzón',
+    realName: 'Javier Ventas Garzon',
     fantasyName: 'Javier el Mercader',
     role: 'Product Analyst',
     class: 'Merchant',
